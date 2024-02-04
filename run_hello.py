@@ -1,3 +1,7 @@
 name="Vadim"
 
-print(f"Hello {name}")
+def introduce(ur_name):
+    print(f"Hello {ur_name}")
+    print('How are you doing today?')
+
+introduce(name)
